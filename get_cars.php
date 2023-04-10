@@ -1,7 +1,7 @@
 <?php
 include "db_config.php";
 
-$sql = "SELECT * FROM Cars";
+$sql = "SELECT * FROM Car";
 $result = $conn->query($sql);
 
 $cars = [];
